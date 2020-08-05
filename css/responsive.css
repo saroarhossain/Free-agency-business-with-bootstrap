@@ -1,0 +1,172 @@
+
+
+@media(max-width: 1399px){
+
+
+}
+
+
+@media(max-width: 1199px){
+
+
+.map iframe{height: 500px;
+}
+}
+
+
+@media(max-width: 991px){
+.navbar-collapse {
+    text-align: center;
+    
+    }
+.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: inline-flex;
+    margin: 20px 0;
+    }
+.navbar .collapse ul .nav-item {
+    }
+ .approch .step1 .detail {
+    padding: 0 30px;
+    } 
+.approch .step1 .first-step {
+    width: 70px;
+    height: 70px;
+    right: -35px;
+    padding-top: 15px;
+    }   
+.approch .left .first-step {
+    left: -35px;
+    } 
+ .approch .step1 .detail h5 {
+    font-size: 16px;
+    padding-bottom: 5px;
+    }   
+ .approch .step1 .detail p {
+    font-size: 12.5px;
+    }       
+.first-step strong {
+    
+font-size: 40px;
+    
+line-height: 0.5;
+}
+.first-step span {
+    font-size: 16px;
+    }
+      
+}
+
+
+
+
+
+@media(max-width: 767px){
+.navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: block;
+    text-align: right;
+    }
+ .navbar .nav-item .nav-link::after{
+    display: none;
+}   
+ .navbar .collapse ul .nav-item {
+  }   
+.banner {
+    padding: 160px 0;}  
+  .banner .heading h1 {
+    font-size: 42px;
+    }
+.banner .heading p {
+    font-size: 22px;
+    }
+.banner .heading button {
+    font-size: 18px;
+    padding: 8px 20px;
+    }    
+
+.post img {
+    width: 50px;
+    height: 70px;
+    padding-bottom: 15px;
+    } 
+.post h5 {
+    font-size: 20px;}
+.post p {
+    font-size: 12px;
+    } 
+  .approch .step1 .first-step {
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -30px;
+    top: 90%;
+    }    
+ .approch .left .first-step{
+     
+/* transform: translateX(-50%); */
+     
+/* left: 50%; */
+     
+/* top: -30px; */
+ }   
+.approch .step1 .detail {
+    padding: 45px 20px;
+    text-align: center;
+    }   
+      
+.col-lg-4.col-md-5.order-1 {
+    order: 0;
+}
+.work-bg {
+    background: none;
+    justify-content: center;
+    }
+.work-bg .col-md-3.col-9 {
+    background: #f35e59;
+    margin-bottom: 10px;
+}
+.work-details {
+    padding: 79px 0;}
+    .work-bg .order-2 {
+    order: 0;
+}
+.work-pic img {
+    object-fit: fill;
+    height: 250px;}
+.touch .heading ul li i {
+    border: 2px solid;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    }
+    .touch .heading button {
+    margin-top: 30px;
+    padding: 6px 25px;
+    }
+.banner,.about,.approch,.work,.fb-analysis,.touch {
+    padding: 70px 0;}
+.fb-analysis .heading h1 {
+    font-size: 30px;
+    } 
+}
+
+@media(max-width: 575px){
+.post {
+margin-bottom: 30px;
+}
+
+.fb-analysis .form-group {
+    padding: 0 ;}
+}
+
+@media(max-width: 400px){
+.approch .step1 .first-step{
+    
+top: 85%;
+}
+}
+
+
